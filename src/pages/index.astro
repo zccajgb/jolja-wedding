@@ -1,16 +1,19 @@
 ---
-
+import Layout from '../layouts/layout.astro';
+import '../styles/global.css';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <div class="flex">
+    <div class="mx-4 sm:mx-auto p-6 pt-4 sm:max-w-[50%] flex flex-col gap-4 sm:gap-6 bg-stone-100 dark:bg-gray-700 dark:text-stone-100 rounded-md">
+      <div class="text-xl sm:my-2"> welcome to our wedding page! </div>
+      <p> Joseph Buckley and Olga Sutskova will be getting married on 17th May 2026, just outside of Barcelona.</p>
+      <p> We will update this page shortly with more information </p>  
+    </div>
+  </div>
+</Layout>
+<style>
+  p {
+    font-size: var(--text-sm) /* 0.875rem = 14px */;
+    line-height: var(--tw-leading, var(--text-sm--line-height) /* calc(1.25 / 0.875) ≈ 1.4286 */)
+  }
+</style>
