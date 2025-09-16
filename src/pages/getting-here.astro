@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/layout.astro';
+import '../styles/global.css';
+---
+<Layout>
+  <div class="flex flex-col">
+    <div class="bg-stone-200 mx-4 sm:mx-auto p-6 pt-4 sm:max-w-[50%] flex flex-col gap-4 sm:gap-6 dark:bg-gray-700 dark:text-stone-100 rounded-md">
+      <p class="text-md"> tldr: get to somewhere TBC in central Barcelona, early in the morning of 17/05/26. </p>
+    </div>
+    <div class="mx-4 sm:mx-auto p-6 pt-4 sm:max-w-[50%] flex flex-col gap-4 sm:gap-6 bg-stone-100 dark:bg-gray-700 dark:text-stone-100 rounded-md">
+      <div class="text-xl sm:my-2"> The Venue </div>
+      <p> Our wedding will be held at Castell de Tamarit, which is about an hours drive outside of Barcelona. </p>
+      <p> There are places to stay nearby the venue (around a 5 minute taxi), but we are planning on organising a coach to and from Barcelona. </p>
+      <p> If there is a coach, it will likely go from somewhere like Plaza de Catalunya, but this all all tbd. </p>  
+      <p> Heres a map with the location: </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.202223152494!2d1.3585320756499526!3d41.13011121191464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fa99aaaaaaab%3A0x63e2a054739ce391!2sCastell%20de%20Tamarit!5e0!3m2!1sen!2suk!4v1758049868237!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</Layout>
+<style>
+  p {
+    font-size: var(--text-sm) /* 0.875rem = 14px */;
+    line-height: var(--tw-leading, var(--text-sm--line-height) /* calc(1.25 / 0.875) ≈ 1.4286 */)
+  }
+</style>

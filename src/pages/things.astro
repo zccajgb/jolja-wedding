@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/layout.astro';
+import '../styles/global.css';
+---
+<Layout>
+  <div class="flex flex-col">
+    <div class="mx-4 sm:mx-auto p-6 pt-4 sm:max-w-[50%] flex flex-col gap-4 sm:gap-6 bg-stone-100 dark:bg-gray-700 dark:text-stone-100 rounded-md">
+      <div class="text-xl sm:my-2"> Things to do in Barcelona </div>
+      <p> We will fill this up with some of our favourite places to do in Barcelona. Including the restaurant that does the best pasta ever for like £4.</p>
+      <img src="/octopus-punch.gif" alt="Octopus punch animation" />
+    </div>
+  </div>
+</Layout>
+<style>
+  p {
+    font-size: var(--text-sm) /* 0.875rem = 14px */;
+    line-height: var(--tw-leading, var(--text-sm--line-height) /* calc(1.25 / 0.875) ≈ 1.4286 */)
+  }
+</style>

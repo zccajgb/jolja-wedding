@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/layout.astro';
+import '../styles/global.css';
+---
+<Layout>
+  <div class="flex flex-col">
+    <div class="mx-4 sm:mx-auto p-6 pt-4 sm:max-w-[50%] flex flex-col gap-4 sm:gap-6 bg-stone-100 dark:bg-gray-700 dark:text-stone-100 rounded-md">
+      <div class="text-xl sm:my-2"> Useful Info </div>
+      <p> There is currently no useful info. I will add some soon. I was going to put a cool animal fact here, but I asked Olja what her favourite animal fact was and she said it was that "Octopuses punch fish sometimes". </p>
+      <p> Heres a gif: </p>
+      <img src="/octopus-punch.gif" alt="Octopus punch animation" />
+    </div>
+  </div>
+</Layout>
+<style>
+  p {
+    font-size: var(--text-sm) /* 0.875rem = 14px */;
+    line-height: var(--tw-leading, var(--text-sm--line-height) /* calc(1.25 / 0.875) ≈ 1.4286 */)
+  }
+</style>
