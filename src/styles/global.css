@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --color-brown: #c19d7b;
+  --color-light: #f6ede4;
+  --color-olive: #777255;
+  --color-green: #354137;
+  --color-red: #70161f;
+  --color-burgundy: #6b0f34;
+  --color-beige: #a28f80;
+  --color-cream: #faf3e3;
+  --color-bone: #f9f6ee;
+  --color-paper: #FAF9F6;
+}
+
+@media (min-width: 640px) {
+  .paper {
+    box-shadow:
+      2px 3px 20px black,
+      0 0 60px #a28f80 inset;
+    background: #f6ede4;
+  }
+}
