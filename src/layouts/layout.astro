@@ -1,6 +1,6 @@
 ---
-import '../styles/global.css';
-import Nav from '../components/nav.astro';
+import "../styles/global.css";
+import Nav from "../components/nav.astro";
 ---
 
 <html lang="en">
@@ -9,10 +9,20 @@ import Nav from '../components/nav.astro';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Jolja Wedding</title>
 	</head>
-	<body class="w-full h-full bg-light">
-		<Nav class="w-full"/>
-    <slot/>
-  </body>
+	<body class="w-full h-full bg-light ">
+		<div class="border-10 border-light sm:border-0">
+			<div class="border-10 border-burgundy sm:border-0">
+				<Nav class="w-full" />
+				<slot />
+			</div>
+		</div>
+	</body>
 </html>

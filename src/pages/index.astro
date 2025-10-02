@@ -1,29 +1,31 @@
 ---
-import Container from "../components/container.astro"
+import Container from "../components/container.astro";
 ---
 
 <Container>
-      <div class="text-xl sm:my-2">welcome to our wedding page!</div>
-      <p>
-        Joseph Buckley and Olga Sutskova will be getting married on 17th May
-        2026, just outside of Barcelona.
-      </p>
-      <p>We will update this page shortly with more information</p>
-      <div class="w-full h-full min-h-80">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSf7avukqZyj88Wr6AJtqhtDJ6eMdrQ9bCWvh6j520IiW3S5vQ/viewform?embedded=true"
-          class="w-full"
-          style="height: 1200px;"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          allowfullscreen
-        >Loading…</iframe
-        >
-      </div>
-    </div>
+  <div class="sm:my-3">
+    <h1>Olga and Joe</h1>
+    <h1>are getting married!</h1>
+  </div>
+  <p>
+    Joseph Buckley and Olga Sutskova will be getting married on 17th May 2026,
+    just outside of Barcelona.
+  </p>
+  <p>We will update this page shortly with more information</p>
+  <div class="w-full h-full min-h-80">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSf7avukqZyj88Wr6AJtqhtDJ6eMdrQ9bCWvh6j520IiW3S5vQ/viewform?embedded=true"
+      class="w-full"
+      style="height: 1200px;"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      allowfullscreen>Loading…</iframe
+    >
+  </div>
 </Container>
+
 <style>
   p {
     font-size: var(--text-sm) /* 0.875rem = 14px */;

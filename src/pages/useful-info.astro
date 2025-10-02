@@ -1,17 +1,24 @@
 ---
-import Container from '../components/container.astro';
-import Layout from '../layouts/layout.astro';
-import '../styles/global.css';
+import Container from "../components/container.astro";
+import Layout from "../layouts/layout.astro";
+import "../styles/global.css";
 ---
+
 <Container>
-      <div class="text-xl sm:my-2"> Useful Info </div>
-      <p> There is currently no useful info. I will add some soon. I was going to put a cool animal fact here, but I asked Olja what her favourite animal fact was and she said it was that "Octopuses punch fish sometimes". </p>
-      <p> Heres a gif: </p>
-      <img src="/octopus-punch.gif" alt="Octopus punch animation" />
+  <h1 class="sm:my-2">Useful Info</h1>
+  <div>
+    <p>
+      There is currently no useful info. I will add some soon. I was going to
+      put a cool animal fact here, so I asked Olja what her favourite animal
+      fact was and she said:
+    </p>
+    <p class="text-center">"Octopuses punch fish sometimes"</p>
+    <p>Heres a gif:</p>
+    <img
+      class="w-full"
+      src="/octopus-punch.gif"
+      alt="Octopus punch animation"
+    />
+  </div>
 </Container>
-<style>
-  p {
-    font-size: var(--text-sm) /* 0.875rem = 14px */;
-    line-height: var(--tw-leading, var(--text-sm--line-height) /* calc(1.25 / 0.875) ≈ 1.4286 */)
-  }
-</style>
+<style></style>
