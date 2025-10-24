@@ -5,6 +5,13 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ru'],
+    routing: {
+      prefixDefaultLocale: true  // URLs will be /en and /vi
+    }
+  },
   vite: {
     plugins: [tailwindcss()]
   }
