@@ -9,7 +9,7 @@ export default defineConfig({
     defaultLocale: 'en',
     locales: ['en', 'ru'],
     routing: {
-     // prefixDefaultLocale: true,  // URLs will be /en and /vi
+      prefixDefaultLocale: true,  // URLs will be /en and /vi
       redirectToDefaultLocal: false
     }
   },
