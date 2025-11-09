@@ -4,7 +4,7 @@ import Sun from "astro-heroicons/outline/Sun.astro";
 const { currentLocale } = Astro;
 const langs = ['en', 'ru'];
 ---
-<div class="h-24 flex flex-col w-full">
+<div class="h-26 flex flex-col w-full">
   <!-- <div class="h-60 pt-6 flex flex-col"> -->
   <div class="w-full flex items-center my-0 mt-2">
     <img class="w-20 h-20 ml-4 md:ml-8" src="/logo.png"/>
@@ -27,7 +27,7 @@ const langs = ['en', 'ru'];
         { currentLocale == "en" ? "RSVP" : "RSVP" }
       </a>
       <a class="text-olive my-2 sm:my-8 px-8 text-xs sm:text-sm hover:underline" href={`/${currentLocale}/getting-there`}>
-        { currentLocale == "en" ? "Getting There" : "Как добраться" }
+        { currentLocale == "en" ? "Getting There" : "Место Торжества" }
       </a>
       <a class="text-olive my-2 sm:my-8 text-xs sm:text-sm hover:underline" href={`/${currentLocale}/useful-info`}>
         { currentLocale == "en" ? "Useful Info" : "Информация"}
@@ -35,7 +35,7 @@ const langs = ['en', 'ru'];
       <!-- <a class="text-olive m-2 sm:m-8 text-xs sm:text-sm hover:underline" href="/things">BCN</a> -->
     </div>
   </div>
-  </div>
+</div>
 
 <script>
   // if (
