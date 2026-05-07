@@ -1,0 +1,234 @@
+---
+import Container from "../../components/container.astro";
+import Layout from "../../layouts/layout.astro";
+import "../../styles/global.css";
+---
+
+<Container>
+  <h1 class="sm:my-2">Barcelona</h1>
+
+  <p>
+    Barcelona is split up into multiple barrios (neighbourhoods), each of which has a slightly different character. They can be roughly split between the old town (Ciutat Vella) and the new town.
+  </p>
+
+  <h2 class="text-xl mt-6 mb-2">The Neighbourhoods</h2>
+  <p class="mb-3">There are four parts to Ciutat Vella:</p>
+
+  <div class="space-y-3 mb-4">
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">El Gótic (gothic quarter)</h3>
+      <p class="text-sm">This is the tourist centre of Barcelona, equivalent of the West End. It's lovely to walk about it, but gets busy. It's the bit of the old town to the north of La Rambla, and south of Via Laietana.</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">El Born</h3>
+      <p class="text-sm">This is where we used to live. It's a bit less touristy than Gótic, and has a lot of lovely bars and restaurants. <a href="https://www.google.com/maps/search/?api=1&query=La+Vinya+del+Senyor+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">La Vinya del Senyor</a> is an incredible wine bar overlooking Santa Maria basilica, and the bacon dates at <a href="https://www.google.com/maps/search/?api=1&query=Ziryab+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Ziryab</a> might be the best thing I've ever eaten. It's the part of the old town north of Via Laietana, and is one of our favourite parts of the city.</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">Barceloneta</h3>
+      <p class="text-sm">This is technically part of the old town but doesn't look like it. It has the beach, marina, and basically nothing else. The parts that aren't the beach are a bit shit.</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">El Raval</h3>
+      <p class="text-sm">El Raval is the part of the old town to the south of La Rambla. There are some good bars and restaurants there, but my advice is usually to avoid it. If you heard a horror story about someone having a bad time in Barcelona, it probably happened in Raval.</p>
+    </div>
+  </div>
+
+  <p class="mb-3">There are also a few parts of the new town worth visiting:</p>
+
+  <div class="space-y-3 mb-2">
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">Poble Sec and Sant Antoni</h3>
+      <p class="text-sm">This is my favourite part of Barcelona, and where we always stay when visiting. If we moved back, we'd try and live here. It's super central, but a bit less touristy. <a href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Parlament+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Carrer del Parlament</a> is where we first stayed in Barcelona, and is one of the coolest streets for bars. <a href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Blai+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Carrer de Blai</a> is also amazing, and has loads of pintxo bars (a basque variation of tapas).</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">Eixample</h3>
+      <p class="text-sm">This is the city centre part that's not the old town. Passeig de Gràcia is here, which is Barcelona's version of Oxford Street. It also has the Sagrada Família, which is incredible to visit if you haven't seen it -- even if you just walk past.</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">Gràcia</h3>
+      <p class="text-sm">This is a nice, more chilled part of the city. It's a bit hilly, but has some good restaurants outside the city centre. I would never usually go there, but not for any good reason. The Gaudí park (Parc Güell I think?) is here, which is great. It was just far away from where we lived and slightly uphill, so we didn't go much. I think the science museum is there (it's definitely near there), which is well worth visiting: it's the most interactive museum I've been to, so is very kid friendly, but generally it's just a really fun museum.</p>
+    </div>
+    <div class="border-l-4 border-[var(--color-brown)] pl-4">
+      <h3 class="font-semibold">Poblenou</h3>
+      <p class="text-sm">This is the best part of Barcelona if you want to go to the beach then stroll to a nice restaurant. It's a bit out of the centre, but one problem with Barcelona is that the parts near the beach are usually a bit shit, they're either super fancy and you'll pay £50 for a slice of bread, or they're just not very nice at all. Poblenou is the exception to this.</p>
+    </div>
+  </div>
+
+  <h2 class="text-xl mt-8 mb-2">Touristy Daytime Things</h2>
+  <p class="mb-4">Below is what I think are the biggest tourist attractions in Barcelona:</p>
+
+  <ol class="list-decimal list-outside ml-5 space-y-3">
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Sagrada Família</a>
+      <p class="text-sm mt-1">Going to Barcelona and not visiting it is like going to London and not visiting the Houses of Parliament. It's the most famous thing, it's an incredibly stunning piece of architecture, and they've been building it for nearly 150 years. It's such a monument either to humanity's ambition, or humanity's hubris, depending on your perspective. In 2020 they ran out of limestone in Catalunya, so have been using stone from Yorkshire to finish construction.</p>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Castell+de+Montjuic+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Castell Montjuïc</a>
+      <p class="text-sm mt-1">There's a funicular and a cable car up from Diagonal in Poble Sec. The castle is pretty nice, but the best part is the views of the city you get from up there.</p>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Tibidabo+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Tibidabo</a>
+      <p class="text-sm mt-1">The mountain at the back of Barcelona. You can get up there by a funicular, and it has the most amazing views of the city. There's a big church on the top of the mountain that you can see from basically anywhere in the city, and for some reason there's an amusement park next to it. There's some good hiking around there if that's your thing.</p>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Placa+Espanya+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Plaça d'Espanya, lower Montjuïc and the Olympic Park</a>
+      <p class="text-sm mt-1">This has some beautiful buildings, a big art gallery, and the old olympic stadium. I never really explored round this part, as the first time I went there it was the hottest day ever and I got heat exhaustion, so just associate it with that!</p>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Parc+Guell+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Parc Güell</a>
+      <p class="text-sm mt-1">Gaudí's park. It's really pretty, a bit weird, and has some really good views. It's worth visiting if you have time.</p>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=Arc+de+Triomf+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Arc de Triomf</a> and <a href="https://www.google.com/maps/search/?api=1&query=Parc+de+la+Ciutadella+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Parc de la Ciutadella</a>
+      <p class="text-sm mt-1">These are both really nice places, and would definitely check them out if I was nearby, but I don't think they're necessarily worth going out of your way for. I might be a bit jaded because I used to walk past them every day to go to the gym.</p>
+    </li>
+  </ol>
+
+  <h2 class="text-xl mt-8 mb-3">A Three-Day Itinerary</h2>
+  <p class="mb-4">If I were going for three days, I'd probably do the following:</p>
+
+  <div class="space-y-4">
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <h3 class="font-semibold mb-1">Day One</h3>
+      <p class="text-sm">Spend one day on the beach and by the marina, and spend the evening in El Born, visiting <a href="https://www.google.com/maps/search/?api=1&query=La+Vinya+del+Senyor+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">La Vinya del Senyor</a> in the early evening, then eat at <a href="https://www.google.com/maps/search/?api=1&query=Ziryab+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Ziryab</a>, then go <a href="https://www.google.com/maps/search/?api=1&query=Mariposa+Negra+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Mariposa Negra</a> for cocktails.</p>
+    </div>
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <h3 class="font-semibold mb-1">Day Two</h3>
+      <p class="text-sm">Spend the next day going up either Montjuïc or Tibidabo, possibly starting at <a href="https://www.google.com/maps/search/?api=1&query=Placa+Espanya+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Plaça d'Espanya</a> if I was doing Montjuïc, then I'd hang around Poble Sec in the evening, eating and drinking on <a href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Blai+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Carrer de Blai</a>, and probably making my way towards <a href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Parlament+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Parlament</a>.</p>
+    </div>
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <h3 class="font-semibold mb-1">Day Three</h3>
+      <p class="text-sm">Spend the final day walking around mostly central. I'd check out the <a href="https://www.google.com/maps/search/?api=1&query=Barcelona+Cathedral" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Barcelona Cathedral</a>, walk around some of the small streets around Gòtic (and maybe Born), before walking up to <a href="https://www.google.com/maps/search/?api=1&query=Placa+Catalunya+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Plaça Catalunya</a>. I'd then jump on the metro to <a href="https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Sagrada Família</a>, walk around that (and maybe go inside?), then head down to via <a href="https://www.google.com/maps/search/?api=1&query=Arc+de+Triomf+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Arc de Triomf</a> and go to <a href="https://www.google.com/maps/search/?api=1&query=H+Bar+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">H Bar</a> for food. Then I'd get a taxi back into the centre, going for drinks either in Born or Poble Sec, depending on where I was staying.</p>
+    </div>
+  </div>
+
+  <h2 class="text-xl mt-8 mb-3">Restaurants</h2>
+
+  <div class="space-y-3">
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=H+Bar+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">H Bar</a>
+        <span class="text-xs text-[var(--color-olive)] italic">Eixample</span>
+      </div>
+      <p class="text-sm">The best pasta we've ever eaten (and we've been to Italy a lot!) It's like £5 a plate, a really no frills restaurant, but it's absolutely mind blowing. I dream about this place.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Ziryab+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Ziryab</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Born</span>
+      </div>
+      <p class="text-sm">Directly under our old flat. The bacon dates are the single best thing I've eaten. It's middle-eastern spanish fusion, they serve Palestinian lager, and they specifically hire deaf people.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Blai+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Anywhere on Carrer de Blai</a>
+        <span class="text-xs text-[var(--color-olive)] italic">Poble Sec</span>
+      </div>
+      <p class="text-sm">The street has loads of Pintxo bars, which are the Basque version of tapas. Everything comes on bread with a toothpick in it, and they count up your toothpicks at the end to charge you. Really good for a relaxed drink with some food. I usually end up in <a href="https://www.google.com/maps/search/?api=1&query=Pincho+J+Barcelona" target="_blank" rel="noopener" class="underline hover:text-[var(--color-burgundy)]">Pincho J</a>, but only because that's the first one I went to.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Taller+de+Tapas+El+Born+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Taller de Tapas</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Born</span>
+      </div>
+      <p class="text-sm">Standard spanish style cuisine. We used to go here a lot, but mostly because it was really close to our flat. I soft recommend. Good if you want paella and steak.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Bar+Celta+Pulperia+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Bar Celta Pulperia</a>
+      </div>
+      <p class="text-sm">Pretty authentic feeling spanish food. The sort of places the locals will go to. Good tapas!</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=My+Fucking+Restaurant+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">My Fucking Restaurant</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Raval</span>
+      </div>
+      <p class="text-sm">Fine dining, tasting menu type food. Really nice, but very expensive.</p>
+    </div>
+  </div>
+
+  <h2 class="text-xl mt-8 mb-3">Bars</h2>
+
+  <div class="space-y-3">
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=La+Vinya+del+Senyor+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">La Vinya del Senyor</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Born</span>
+      </div>
+      <p class="text-sm">Absolutely beautiful wine bar opposite a cathedral. If this was just someone's house it'd still be worth visiting because of how beautiful it is. The oysters are great as well.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Mariposa+Negra+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Mariposa Negra</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Born</span>
+      </div>
+      <p class="text-sm">Olja's favourite bar in Barcelona. They make incredible cocktails, in handmade pottery cups. They'll even try to sell you the cup to take home with you.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Paradiso+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Paradiso</a>
+        &amp;
+        <a href="https://www.google.com/maps/search/?api=1&query=Dr+Stravinsky+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Dr Stravinsky</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Born</span>
+      </div>
+      <p class="text-sm">These are Barcelona's two "best" cocktail bars. I think I prefer Mariposa, but that's because you have to queue for both of them. I don't think we ever made it to Paradiso, but Dr Stravinsky is very good, if you're serious about cocktails.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Dunnes+Irish+Bar+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Dunnes Irish Bar</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Gótic</span>
+      </div>
+      <p class="text-sm">If I wanted to watch sports, this would be my go-to place. It's an Irish bar in Spain, so you know what you're getting. If that's for you, I think this is the best one. I think if this pub was in the UK, I'd occasionally go.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Bollocks+Bar+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Bollocks Bar</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Gótic</span>
+      </div>
+      <p class="text-sm">A fun rock bar. Relatively chilled out, although I always get this place confused with the rock bar by Glasgow Central, so take from that what you will. I had a couple of fun nights in here though.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Bar+Manchester+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Bar Manchester</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Gótic</span>
+      </div>
+      <p class="text-sm">Fun little bar playing lots of 90's britpop and the like.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Hell+Awaits+Bar+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Hell Awaits</a>
+        <span class="text-xs text-[var(--color-olive)] italic">El Raval</span>
+      </div>
+      <p class="text-sm">A really cool metal bar, but a bit dodgy. Like it was a bit of a weird vibe when we went there, so I'd be careful, but I could also see you having a great night in this place. It feels weird to recommend, but I think if I was in Barcelona with friends, I'd risk going there, but it didn't feel like the safest place in the world.</p>
+    </div>
+
+    <div class="border border-[var(--color-brown)] rounded p-4">
+      <div class="flex items-baseline gap-2 mb-1">
+        <a href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Blai+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Carrer de Blai</a>
+        &amp;
+        <a href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Parlament+Barcelona" target="_blank" rel="noopener" class="font-semibold underline hover:text-[var(--color-burgundy)]">Carrer del Parlament</a>
+        <span class="text-xs text-[var(--color-olive)] italic">Poble Sec</span>
+      </div>
+      <p class="text-sm">And in general anywhere on Carrer de Blai or Carrer del Parlament. I don't have a specific recommendation because we'd just go in whichever one looked good at the time.</p>
+    </div>
+  </div>
+</Container>
+
+<style>
+  p {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+</style>
